@@ -8,7 +8,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",        # thay bằng user MySQL của bạn
-        password="",        # thay bằng mật khẩu của bạn
+        password="111111",        # thay bằng mật khẩu của bạn
         database="qlbaihat" # database vừa tạo ở trên
     )
 
